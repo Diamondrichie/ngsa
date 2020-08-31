@@ -1,0 +1,142 @@
+
+header{
+    position: relative;
+    background-color: rgb(85, 180,45);
+    border: 3px solid greenyellow;
+    width:100%;
+}
+h1 {
+    position:;
+    top:10;
+    right:5;
+    color:whitesmoke;
+    text-align:right;
+    font-size:45px;
+    text-shadow:6px;
+}
+#tab {
+    position: relative;
+    top:4;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:99.2%;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    background-color: rgb(80, 140,50);
+    text-decoration:none;
+    padding: 5px 0px 3px 10px;
+    display:inline-block;
+}
+ #tab a{
+    color:rgb(15, 2, 2);
+    text-decoration: none;
+ }
+ span{
+     position: absolute;
+     top:0px;
+     width:250;
+     height:140;
+ }
+#tab :hover{
+    background-color:rgb(70, 200,50);
+}
+body{
+    background-color: aliceblue;
+    margin:0px;
+}
+h2 { 
+    font-family:Century;
+    color:green;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width:250px;
+    text-align:center;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    box-shadow: 4px 4px 5px #99FF99;
+}
+
+footer {
+    border: 1px dotted black;
+    border-height: 18%;
+    padding:15px 20px 15px 15px; 
+    display:block;
+    font-size:12px;
+    font-family: 'Times New Roman';
+    color:white;
+    line-height: 1.2;
+    background-color: rgb(85, 180,45);
+}
+footer a {
+    color:black;
+    
+}
+
+ .footer1  {
+     float:right;
+     width:25%;
+    box-sizing: border-box;
+    border-radius:3px;
+    padding: 20px 30px;
+    margin:10px;
+    border: 1px solid white;
+}
+.footer3 {
+    float:right;
+     width:25%;
+    box-sizing: border-box;
+    border-radius:3px;
+    padding: 20px 30px;
+    margin:10px;
+    border: 1px solid white;
+}
+.footer3 ul li{
+    list-style-type: none;
+}
+.footer4 form {
+    border:1px solid white;
+}
+.footer4 input[type=text] {
+    float:right;
+   box-sizing:border-box;
+    width:70%;
+    padding: 10px 15px;
+    margin: 7px 0;
+    border:2px solid white;
+}
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    width:17%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+input[type=text] {
+    align:center;
+    display:inline-block;
+    background-color:#f8f8f6;
+    width:20%;
+    padding: 10px 10px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+input[type=submit]:hover
+ {
+    background-color: #3455;
+    border: 1px solid #a4a4a4;
+    border-top: 2px solid #b2b2b2;
+}
+
+input[type=submit] {
+    display:inline-block;
+    width:20%;
+    background-color:#6f6;
+    padding: 2px 2px;
+}
+.Richie{
+    text-align:center;
+    
+}

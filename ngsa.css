@@ -1,0 +1,164 @@
+header{
+    position: relative;
+    background-color: rgb(85, 180,45);
+    border: 3px solid greenyellow;
+    width:100%;
+}
+h1 {
+    position:;
+    top:10;
+    right:5;
+    color:whitesmoke;
+    text-align:right;
+    font-size:45px;
+    text-shadow:6px;
+}
+#tab {
+    position: relative;
+    top:4;
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:99.2%;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    background-color: rgb(80, 140,50);
+    text-decoration:none;
+    padding: 5px 0px 3px 10px;
+    display:inline-block;
+}
+ #tab a{
+    color:rgb(15, 2, 2);
+    text-decoration: none;
+ }
+ span{
+     position: absolute;
+     top:0px;
+     width:250;
+     height:140;
+     background-position: 0% 0%;
+ }
+#tab :hover{
+    background-color:rgb(70, 200,50);
+}
+body{
+    background-color: aliceblue;
+    margin:0px;
+}
+h2 { 
+    font-family:Century;
+    color:green;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width:400px;
+    text-align:center;
+    font-size:3em;
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    box-shadow: 4px 4px 5px #99FF99;
+    margin-top:10px;
+}
+#field {
+     display:flex;
+     flex-wrap:wrap;
+     justify-content: center;
+}
+ #field img {
+     width:450px;
+     height:200px;
+     margin:10px;
+     transition: all 1s;
+ }
+ #field img:hover{
+    box-shadow: 5px 5px 3px 5px green;
+    animation-duration: 4s;
+ }
+.rich{
+    box-sizing: border-box;
+    float:left;
+    border:0.7px groove green;
+    margin:20px;
+    width:20%;
+    font-size:16px;
+    font-family:century;
+    line-height:25px;
+    text-indent: 30px;
+}
+
+footer {
+    border: 1px dotted black;
+    padding:15px 20px 15px 15px; 
+    display:block;
+    font-size:12px;
+    font-family: 'Times New Roman';
+    color:white;
+    line-height: 1.2;
+    background-color: rgb(85, 180,45);
+}
+footer a {
+    color:black;
+    
+}
+
+ .footer1  {
+     float:left;
+     width:25%;
+    box-sizing: border-box;
+    border-radius:3px;
+    padding: 20px;
+    margin:10px;
+    border: 1px solid white;
+}
+.footer3 {
+    float:left;
+     width:25%;
+    box-sizing: border-box;
+    border-radius:3px;
+    padding: 20px;
+    margin:10px;
+    border: 1px solid white;
+}
+.footer3 ul li{
+    list-style-type: none;
+}
+.footer4, .footer4 form, .footer4 input[type=text], input[type=submit]
+{
+    margin:10px;
+    float:left;
+    width:30%;
+}
+.footer4 form {
+    border:1px solid white;
+    margin:10px;
+    float:left;
+    width:25%;
+}
+.footer4 input[type=text] {
+    float:left;
+   box-sizing:border-box;
+    width:25%;
+    padding: 10px 15px;
+    margin: 10px;
+    border:2px solid white;
+}
+
+input[type=text] {
+    margin:10px;
+    float:left;
+    width:25%;
+    background-color:#f8f8f6;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+input[type=submit] {
+    margin:10px;
+    float:left;
+    width:25%;
+    background-color:#f8f8f6;
+    padding: 2px 2px;
+}
+.Richie{
+    text-align:center;
+    align:center;
+}
